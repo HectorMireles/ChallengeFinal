@@ -2,7 +2,10 @@
 let carreta = document.getElementById('carreta')
 let boton = document.getElementById('boton')
 
+
+
 const canasta = () => {
+    // let e = e + 1;
     if (boton === 'click'){
         carreta.innerHTML = 0
     } else {
