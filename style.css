@@ -2,11 +2,41 @@
     margin-bottom: 25px;
 }
 
-
 .LogoMain {
 border: 1px solid red;
 }
 
 .Portada {
     width: 1050px;
+}
+
+.Landing{
+    margin-bottom: 25px;
+    justify-content: center;
+}
+
+.Creadores{
+    border: 1px solid blue;
+    display: flex;
+    width: 800px;
+}
+
+.Ccreadores{
+    border: chartreuse 1px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.Pcreadores{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.Tcreadores{
+    
+    margin-left: 75px;
+}
+.Foto{
+    height: 350px;
 }
