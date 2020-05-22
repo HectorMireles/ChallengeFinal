@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
     <title>Story World</title>
@@ -36,7 +37,7 @@
                     <li class="nav-item">
                         <a id="comprar">
                             <button id="carreta" type="button" class="btn btn-outline-dark">
-                                <span class="material-icons">
+                                <span class="material-icons">
                                     shopping_cart
                                 </span>
                             </button>
@@ -46,12 +47,108 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main class="Cuerpo row justify-content-center">
         <!-- HECTOR SE ENCARGA -->
-        <section class="Landing">
-            <article>
+        <section class="Landing container row col-11 col-md-10 col-lg-11">
+            <article class="LogoMain">
+                <img class="Portada" src="./assets/Portada.png" alt="Logo_con_Personajes">
 
             </article>
+        </section>
+        <section class="Creadores conteiner row col-11 col-md-6 col-lg-4">
+            <img class="Foto" src="./assets/Creadores.jpg" alt="Foto_Creadores_Hector_y_Josep">
+            <article class="Ccreadores">
+                <h3 class="Tcreadores">Conoce a los creadores</h3>
+                <p class="Pcreadores">Hola somos Josep y Héctor, un par de diseñadores mexicanos con muchas ganas de que
+                    nuestro juego StoryWorld pueda llegar a todos los rincones posibles ya que creemos es un producto
+                    con un gran potencial y por lo mismo creemos que todas las personas desde pequeñitos hasta adultos
+                    lo disfrutarán.
+                </p>
+
+                <p class="Pcreadores">
+                    Sabemos que es un recurso que fomenta el trabajo en equipo y desarrolla el pensamiento creativo,
+                    haciendo del juego un recurso indispensable para el desarrollo de los pequeños.
+                </p>
+
+            </article>
+        </section>
+
+        <div class="row col-11 col-md-10 col-lg-11">
+            <div class="col-lg-12">
+                <h1 class="big-heading">TU ERES EL PROTAGONISTA <br> DE CADA HISTORIA</h1>
+            </div>
+        </div>
+
+        <div id="testimonial-carousel" class="carousel slide bSil" data-ride="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active container-fluid">
+                    <h2 class="testimonial-text">"¡Fantastico! Simple, entretenido <br> y super divertido para jugar."
+                    </h2>
+                    <img class="testimonial-image" src="./assets/Jordi.jpg" alt="user-profile">
+                    <em>Jordi Ayguasenosa</em>
+                </div>
+                <div class="carousel-item container-fluid">
+                    <h2 class="testimonial-text">"Yo pienso que StoryWorld es el <br>tipo de juego que muy rara vez te
+                        aburre. "
+                    </h2>
+                    <img class="testimonial-image" src="./assets/Raul Babines.jpg" alt="user-profile">
+                    <em>Raul Babines</em>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+
+        <section class="white-section bSil" id="versions">
+            <h2 class="section-heading">Conoce a nuestros protagonistas</h2>
+            <p class="pSil">Escoge tu versión y cuenta tu historia</p>
+            <div class="row">
+                <div class="versions-column col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Carlos García</h3>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="expansion-text">Expansión Fantasia</h2>
+                            <p class="pSil">StoryWorld es pura imaginación, es ideal para niños, divertido para adultos, me recuerda
+                                las historias
+                                divertidas que le cuento a mis hijos antes de dormir.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="versions-column col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>William Burgos</h3>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="expansion-text">Expansión Horror</h2>
+                            <p class="pSil">Para algunos es un reto a la imaginación, para otros es más natural, sin importar todos
+                                reímos y esa es
+                                la esencia de un buen juego para fiestas. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="versions-column col-lg-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Waldo</h3>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="expansion-text">Expansion NSFW</h2>
+                            <p class="pSil">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptate doloremque ullam
+                                laudantium
+                                distinctio delectus, accusantium sit, earum et itaque nihil illum dolore, voluptatum
+                                possimus nulla
+                                asperiores maxime. Expedita, maxime.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- WALDO SE ENCARGA -->
         <section class="container Catalogo">
@@ -360,8 +457,14 @@
         </section>
 
     </main>
-    <footer>
-
+    <footer class="white-section" id="footer">
+        <div class="container-fluid">
+            <i class="social-icon fab fa-facebook-f"></i>
+            <i class="social-icon fab fa-twitter"></i>
+            <i class="social-icon fab fa-instagram"></i>
+            <i class="social-icon fas fa-envelope"></i>
+            <p>© Copyright storyWorld</p>
+        </div>
     </footer>
 
     <script src="main.js"></script>

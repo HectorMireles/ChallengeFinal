@@ -1,5 +1,71 @@
-* {
-    background-color: black;
+.Encabezado {
+    margin-bottom: 25px;
+}
+
+.LogoMain {
+/* border: 1px solid red; */
+}
+
+.Portada {
+    width: 1050px;
+}
+
+.Landing{
+    margin-bottom: 100px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.Creadores{
+    /* border: 1px solid blue; */
+    border-radius: 15px;
+    display: flex;
+    width: 800px;
+    padding: 50px;
+    background-color: mediumpurple;
+    margin-bottom: 30px;
+}
+
+.Ccreadores{
+    /* border: chartreuse 1px solid; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    
+}
+
+.Pcreadores{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Comic Neue', cursive;
+    color: white;
+    }
+
+.Tcreadores{
+    
+    margin-left: 15px;
+    font-family: 'Anton', sans-serif;
+    color: white;
+}
+.Foto{
+    height: 350px;
+}
+
+.navbar {
+    background-color: mediumpurple;
+}
+
+/* body{
+    background-color: yellow;
+} */
+
+.Portada {
+    width: 100%;
+}
+
+.Foto {
+    width: 100%;
+    height: 40%;
 }
 
 .SW {
@@ -24,8 +90,8 @@
 
 @media (max-width: 375px) {
     .img1 {
-      height: 174.38px;
-      width: 174.38px;
+      height: 189.77px;
+      width: 189.77px;
     }
 }
 
@@ -43,7 +109,7 @@
     }
 }
 
-h2 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Comic Neue', cursive;
 }
 
@@ -56,9 +122,99 @@ p {
 }
 
 .carta {
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .none {
     display: none;
+}
+
+.bSil {
+    text-align: center;
+}
+
+.pSil {
+    color: #8f8f8f;
+}
+
+.big-heading {
+    font-family: "Comic Neue";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+.navbar-brand {
+    font-family: "Comic Neue";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#title {
+    background-image: url(./assets/Dark\ Blue\ Astronaut\ Motivational\ Desktop\ Wallpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+#testimonials {
+    background-color:white;
+}
+
+.testimonial-text {
+    color: black;
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+em{
+    color: black;
+}
+
+  .testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#versions {
+    padding: 100px;
+}
+
+.expansion-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.versions-column {
+    padding: 3% 2%;
+}
+
+#footer{
+    background: rgb(214,230,103);
+    background: linear-gradient(90deg, rgba(214,230,103,1) 0%, rgba(240,253,29,0.8547794117647058) 50%, rgba(252,176,69,1) 100%);
+}
+
+.social-icon {
+    margin: 20px 10px;
+
 }
