@@ -14,6 +14,8 @@ let cambioD = document.getElementById('cambioD')
 let cambioT = document.getElementById('cambioT')
 let carta = document.getElementById('carta')
 let datosCompra = document.getElementById('datosCompra')
+let email = document.getElementById('email')
+let cambioE = document.getElementById('cambioE')
 let btn = document.getElementById('btn')
 let num = 0
 
@@ -26,10 +28,15 @@ const cambio = () => {
     nuevoNom.innerHTML = 'Nombre: ' + nombre.value
     cambioD.innerHTML = 'Direccion: ' + direccion.value
     cambioT.innerHTML = 'Telefono: ' + telefono.value
+    cambioE.innerHTML = 'Email: ' + email.value
     datosCompra.classList.remove('none')
 }
 
 const aceptar = () => { 
+    nuevoNom.innerHTML = 'Nombre: ' + nombre.value
+    cambioD.innerHTML = 'Direccion: ' + direccion.value
+    cambioT.innerHTML = 'Telefono: ' + telefono.value
+    cambioE.innerHTML = 'Email: ' + email.value
     carta.classList.remove('none')
 }
 
