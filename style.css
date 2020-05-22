@@ -1,9 +1,64 @@
+* {
+    background-color: black;
+}
+
 .SW {
     width: 40px;
     height: 40px;
+    border-radius: 50%;
 }
 
-.img1 {
-    width: 205.84px;
-    height: 205.84px;
+@media (max-width: 1024px) {
+    .img1 {
+      height: 205.84px;
+      width: 205.84px;
+    }
+}
+
+@media (max-width: 768px) {
+    .img1 {
+      height: 149.91px;
+      width: 149.91px;
+    }
+}
+
+@media (max-width: 375px) {
+    .img1 {
+      height: 174.38px;
+      width: 174.38px;
+    }
+}
+
+@media (max-width: 700px) {
+    .img1 {
+      height: 258.99px;
+      width: 258.99px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .img1 {
+      height: 247.8px;
+      width: 247.8px;
+    }
+}
+
+h2 {
+    font-family: 'Comic Neue', cursive;
+}
+
+p {
+    font-family: 'Comic Neue', cursive;
+}
+
+.btn {
+    font-family: 'Comic Neue', cursive;
+}
+
+.carta {
+    margin-top: 80px;
+}
+
+.none {
+    display: none;
 }

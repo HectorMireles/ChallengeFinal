@@ -6,42 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
-    <title>Document</title>
+    <title>Story World</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#"><img class="SW" src="./assets/Logo_sw.jpg" alt="Logo SW"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <a class="navbar-brand" href=""><img class="SW" src="./assets/Logo_sw.jpg" alt="Logo SW"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse row justify-content-center" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#pricing">Galeria</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="#cta">Testimonios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        <a class="nav-link" href="#cta">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="comprar">
+                            <button id="carreta" type="button" class="btn btn-outline-dark">
+                                <span class="material-icons">
+                                    shopping_cart
+                                </span>
+                            </button>
+                        </a>
                     </li>
                 </ul>
-            </div>
-            <div>
-                <button id="carreta" type="button" class="btn btn-outline-dark">
-                    <span class="material-icons">
-                        shopping_cart
-                    </span>
-                </button>
             </div>
         </nav>
     </header>
@@ -55,7 +56,7 @@
         <!-- WALDO SE ENCARGA -->
         <section class="container Catalogo">
             <article class="row justify-content-center">
-                <div id="compraJuego" class="card mb-3 col-11 col-md-10 col-lg-11 mb-3 mx-md-1 mx-lg-3">
+                <div id="compraJuego" class="card mb-3 col-11 col-md-10 col-lg-11 mb-3 mx-md-1 mx-lg-3 carta">
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -122,7 +123,7 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="img1" src="./assets/expansiones/Expansion.jpg" class="d-block w-100 "
+                                <img class="img1" src="./assets/expansiones/Expansion.jpg" class="d-block w-100"
                                     alt="Expansion">
                             </div>
                             <div class="carousel-item">
@@ -156,7 +157,8 @@
                             <br> ¡No dejes de crear!
                         </p>
                         <div class="row justify-content-center">
-                            <button id="boton" type="button" class="btn btn-outline-primary">Agregar al carrito</button>
+                            <button id="boton1" type="button" class="btn btn-outline-primary">Agregar al
+                                carrito</button>
                         </div>
                     </div>
                 </div>
@@ -203,7 +205,8 @@
                             <br> ¡Haz que tu imaginación salga de este mundo!
                         </p>
                         <div class="row justify-content-center">
-                            <button id="boton" type="button" class="btn btn-outline-primary">Agregar al carrito</button>
+                            <button id="boton2" type="button" class="btn btn-outline-primary">Agregar al
+                                carrito</button>
                         </div>
                     </div>
                 </div>
@@ -251,7 +254,8 @@
                             <br> ¡Demuestra que no le temes a nada!
                         </p>
                         <div class="row justify-content-center">
-                            <button id="boton" type="button" class="btn btn-outline-primary">Agregar al carrito</button>
+                            <button id="boton3" type="button" class="btn btn-outline-primary">Agregar al
+                                carrito</button>
                         </div>
                     </div>
                 </div>
@@ -298,7 +302,56 @@
                             <br> ¡Cualquier cosa cuenta, no hay límites!
                         </p>
                         <div class="row justify-content-center">
-                            <button id="boton" type="button" class="btn btn-outline-primary">Agregar al carrito</button>
+                            <button id="boton4" type="button" class="btn btn-outline-primary">Agregar al
+                                carrito</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="datosCompra" class="cotainer none row justify-content-center col-10 col-md-8 col-lg-7">
+                    <div class="row justify-content-center">
+                        <div class="input-group input-group-sm mb-3 col-10 col-md-8 col-lg-7 justify-content-center">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-sm">Nombre</span>
+                            </div>
+                            <input id="nombre" type="text" class="form-control" aria-label="Sizing example input"
+                                aria-describedby="inputGroup-sizing-sm">
+                        </div>
+
+                        <div class="input-group input-group-sm mb-3 col-10 col-md-8 col-lg-7 justify-content-center">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-sm">Direccion</span>
+                            </div>
+                            <input id="direccion" type="text" class="form-control" aria-label="Sizing example input"
+                                aria-describedby="inputGroup-sizing-sm">
+                        </div>
+
+                        <div class="input-group input-group-sm mb-3 col-10 col-md-8 col-lg-7 justify-content-center">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-sm">Telefono</span>
+                            </div>
+                            <input id="telefono" type="text" class="form-control" aria-label="Sizing example input"
+                                aria-describedby="inputGroup-sizing-sm">
+                        </div>
+                        <div class="input-group input-group-sm mb-3 col-10 col-md-8 col-lg-7 justify-content-center">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-sm">Email</span>
+                            </div>
+                            <input id="telefono" type="text" class="form-control" aria-label="Sizing example input"
+                                aria-describedby="inputGroup-sizing-sm">
+                        </div>
+                    </div>
+                    <button id="btn" type="submit" class="btn btn-primary">Submit</button>
+                </div>
+
+                <div id="carta" class="container none">
+                    <div class="row justify-content-center">
+                        <div class="card col-7 col-md-4 col-lg-3" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 id="nuevoNom" class="card-title"></h5>
+                                <p id="cambioD" class="card-text"></p>
+                                <p id="cambioT"></p>
+                            </div>
                         </div>
                     </div>
                 </div>
