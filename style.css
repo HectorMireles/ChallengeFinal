@@ -3,7 +3,7 @@
 }
 
 .LogoMain {
-border: 1px solid red;
+/* border: 1px solid red; */
 }
 
 .Portada {
@@ -11,31 +11,40 @@ border: 1px solid red;
 }
 
 .Landing{
-    margin-bottom: 25px;
+    margin-bottom: 100px;
+    margin-top: 50px;
     justify-content: center;
 }
 
 .Creadores{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
+    border-radius: 15px;
     display: flex;
     width: 800px;
+    padding: 50px;
+    background-color: mediumpurple;
 }
 
 .Ccreadores{
-    border: chartreuse 1px solid;
+    /* border: chartreuse 1px solid; */
     display: flex;
     flex-direction: column;
+    margin-left: 15px;
+    
 }
 
 .Pcreadores{
     margin-left: 10px;
     margin-right: 10px;
-
-}
+    font-family: 'Comic Neue', cursive;
+    color: white;
+    }
 
 .Tcreadores{
     
-    margin-left: 75px;
+    margin-left: 15px;
+    font-family: 'Anton', sans-serif;
+    color: white;
 }
 .Foto{
     height: 350px;
