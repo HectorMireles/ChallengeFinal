@@ -1,0 +1,134 @@
+
+body {
+    font-family: "Comic Neue;";
+    text-align: center;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Comic Neue;";
+  }
+  
+  p {
+    color: #8f8f8f;
+  }
+  
+  /* Encabezado */
+  
+  .big-heading {
+    font-family: "Comic Neue";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  /* Contenedores */
+  
+  .container-fluid {
+    padding: 7% 15%;
+  }
+  
+  /* Secciones */
+  
+  
+  .white-section {
+    background-color: #fff;
+  }
+  
+  /* Nav Bar */
+  
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  .navbar-brand {
+    font-family: "Comic Neue";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.5rem;
+    font-family: "Comic Neue";
+  }
+  
+  
+  
+  /* Seccion Titulos */
+  
+  #title {
+    background-image: url(../images/Dark\ Blue\ Astronaut\ Motivational\ Desktop\ Wallpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    
+  }
+  
+  #title .container-fluid {
+    padding: 3% 15% 7%;
+  }
+  
+  
+  
+  
+  /* Sección testimonios */
+  
+  #testimonials {
+    background-color:white;
+  }
+  
+  .testimonial-text {
+    color: black;
+    font-size: 3rem;
+    line-height: 1.5;
+  
+  }
+  em{
+    color: black;
+  }
+  
+  .testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+  
+  
+  /* Seccion Version  */
+  
+  #versions {
+    padding: 100px;
+    
+  }
+  
+  .expansion-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  .versions-column {
+    padding: 3% 2%;
+  }
+  
+  
+  
+  
+  /* Footer Section */
+  #footer{
+    background: rgb(214,230,103);
+    background: linear-gradient(90deg, rgba(214,230,103,1) 0%, rgba(240,253,29,0.8547794117647058) 50%, rgba(252,176,69,1) 100%);
+    
+  }
+    .social-icon {
+    margin: 20px 10px;
+    
+  }
+  
