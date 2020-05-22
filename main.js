@@ -27,11 +27,9 @@ const cambio = () => {
     cambioD.innerHTML = 'Direccion: ' + direccion.value
     cambioT.innerHTML = 'Telefono: ' + telefono.value
     datosCompra.classList.remove('none')
-    // carta.classList.remove('none')
 }
 
-const aceptar = () => {
-    btn.addEventListener('click', cambio)
+const aceptar = () => { 
     carta.classList.remove('none')
 }
 
@@ -41,3 +39,4 @@ boton2.addEventListener('click', canasta)
 boton3.addEventListener('click', canasta)
 boton4.addEventListener('click', canasta)
 comprar.addEventListener('click', cambio)
+btn.addEventListener('click', aceptar)
